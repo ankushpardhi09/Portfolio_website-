@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port on Ankush</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" 0>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><i class="fa-brands fa-dev"></i> Ankush Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Porjects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <samp class="purple">Ankush </samp>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="RESUME.ANKUSH (2).pdf"><button class="btn">Resume</button></a>
+                    <a href="https://github.com/ankushpardhi09"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="ankush.png.png" alt="image">
+        </section>
+        <hr>
+        <section class="secondSection">
+            <samp class="text-gray">What I have Done so far</samp>
+            <h1>Working in Technology </h1>
+            <samp class="text-gray">(2023-2024)</samp>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="frontend.svg" alt="">
+                    <div class="vertical-title">
+                        Frontend
+                    </div>
+                    <div class="vertical-desc">
+                        HTML, CSS <br> & Javascript <br> along with frameworks like Bootstrap & Tailwind.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Backend.svg" alt="">
+                    <div class="vertical-title">
+                        Backend
+                    </div>
+                    <div class="vertical-desc">
+                        Express.js & <br> Node.js. <br> Discover APIs, templating, deployment & much more.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="React.svg" alt="">
+                    <div class="vertical-title">
+                        React
+                    </div>
+                    <div class="vertical-desc">
+                        Advanced Frontend <br> concepts like state,<br> event, materialUI with React.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Database.svg" alt="">
+                    <div class="vertical-title">
+                        Database
+                    </div>
+                    <div class="vertical-desc">
+                        Build a stable, reliable database - be it relational (SQL) or non-relational
+                        (MongoDB).
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Opne source.svg" alt="">
+                    <div class="vertical-title">
+                        Open Source
+                    </div>
+                    <div class="vertical-desc">
+                        Git & Github <br> the world of open source and dive into concepts relating to version control.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="name-logo"><i class="fa-brands fa-dev"></i> Ankush Portfolio</div>
+            <div class="footer-rights">
+                www.ankushportfolio.com | All right reserved
+            </div>
+            <div class="Contact">
+                <a href="https://www.linkedin.com/in/ankushpardhi/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mr.ap_ankush_09/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Web Developer', 'Web Designer', 'MERN Stack Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
